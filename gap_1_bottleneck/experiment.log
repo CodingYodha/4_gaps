@@ -1,0 +1,14 @@
+2026-01-06 20:21:48 - INFO - Gap 1 Bottleneck Formation Experiment Initialized
+2026-01-06 20:21:48 - INFO - Experiment notebook created: experiment_1.ipynb
+2026-01-06 20:21:48 - INFO - Configuration:
+  - K: 10 classes
+  - d0: 1000 input dimensions
+  - n_per_class: [5, 10, 20]
+  - d_b: [2, 4, 8, 16, 32, 64, 128]
+  - L_hidden: [2, 5, 7, 10]
+  - width_patterns: constant_narrow, wide_narrow_wide
+  - weight_decay: [0, 1e-5, 1e-4, 1e-3]
+  - max_iters: 50000
+  - seeds: 20 per config
+2026-01-06 20:21:48 - INFO - Metrics tracked: stable_rank, NC1, singular_values, weight_srank, rank_drop
+2026-01-06 20:21:48 - INFO - Plots implemented: rank_evolution, singular_spectra, bottleneck_histogram, scaling_law, phase_diagram, nc1_dynamics, wd_ablation, rank_drop_table
