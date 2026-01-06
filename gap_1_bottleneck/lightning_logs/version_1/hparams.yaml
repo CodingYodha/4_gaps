@@ -1,0 +1,9 @@
+K: 10
+L_hidden: 3
+d0: 1000
+d_b: 16
+max_iters: 1000
+n_per_class: 10
+seed: 42
+wd: 0.0001
+width_pattern: constant_narrow

@@ -12,3 +12,12 @@
   - seeds: 20 per config
 2026-01-06 20:21:48 - INFO - Metrics tracked: stable_rank, NC1, singular_values, weight_srank, rank_drop
 2026-01-06 20:21:48 - INFO - Plots implemented: rank_evolution, singular_spectra, bottleneck_histogram, scaling_law, phase_diagram, nc1_dynamics, wd_ablation, rank_drop_table
+2026-01-06 20:32:20,546 - INFO - Using device: cuda
+2026-01-06 20:32:20,608 - INFO - Sweep params: {'n_per_class': [5, 10, 20], 'd_b': [2, 4, 8, 16, 32, 64, 128], 'L_hidden': [2, 5, 7, 10], 'width_pattern': ['constant_narrow', 'wide_narrow_wide'], 'wd': [0, 1e-05, 0.0001, 0.001]}
+2026-01-06 20:32:20,610 - INFO - Fixed params: {'K': 10, 'd0': 1000, 'max_iters': 50000}
+2026-01-06 20:32:20,718 - INFO - Starting quick test run...
+2026-01-06 20:38:27,135 - INFO - Using device: cuda
+2026-01-06 20:38:27,186 - INFO - Sweep params: {'n_per_class': [5, 10, 20], 'd_b': [2, 4, 8, 16, 32, 64, 128], 'L_hidden': [2, 5, 7, 10], 'width_pattern': ['constant_narrow', 'wide_narrow_wide'], 'wd': [0, 1e-05, 0.0001, 0.001]}
+2026-01-06 20:38:27,187 - INFO - Fixed params: {'K': 10, 'd0': 1000, 'max_iters': 50000}
+2026-01-06 20:38:27,300 - INFO - Starting quick test run...
+2026-01-06 20:38:31,827 - INFO - Test run complete.
