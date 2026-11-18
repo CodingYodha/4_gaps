@@ -26,8 +26,6 @@ The notebooks train many models while logging how their hidden representations c
 
 The full results and figures are in the paper: [arXiv:2610.24571](https://arxiv.org/abs/2610.24571).
 
-[TODO: add 1–2 headline numbers or one key figure from the paper]
-
 ## How to run
 
 The notebooks need a GPU. To run one locally:
